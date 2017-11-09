@@ -9,11 +9,13 @@ This project is including several implementation of algorithms, which are experi
 3. Guo W, Wu S, Wang L, et al. Adaptive Pairwise Learning for Personalized Ranking with Content and Implicit Feedback[C]// IEEE / Wic / ACM International Conference on Web Intelligence and Intelligent Agent Technology. IEEE, 2016:369-376.
 
 In neuro, we provide the FM based methods:
+
 1.RankPairFM(Personalized Ranking with Pairwise Factorization Machines), 
 2.PFM( Pairwise Factorization Machines), 
 3.trFM(Factorization Machines).
 
 In wi_ait, we provide the BPR and svd based methods:
+
 1. Model_WI_CABpr.py is the method described in Adaptive Pairwise Learning for Personalized Ranking with Content and Implicit Feedback. 
 2. Model_MapBPR.py is map BPR. 
 3. Model_BPR.py is BPR(Bayesian Personalized Ranking). 
